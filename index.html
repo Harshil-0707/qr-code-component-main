@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+  *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+
+  body{
+      height: 100vh;
+      width: 100vw;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      background-color: hsl(212, 45%, 89%);
+  }
+
+  #container{
+      border-radius: 20px;
+      padding: 20px;
+
+      background-color: #fff;
+      box-shadow: 0px 0px 50px 0px rgb(181, 179, 179);
+  }
+
+  img{    
+      border-radius: 10px;
+  }
+
+  #card-info{
+      text-align: center;
+      font-family:Outfit;
+  }
+
+  #heading{
+      margin-top: 20px;
+  }
+
+  #sometext{
+      margin: 12px 0;
+      color: gray;
+  }
+  </style>
+  <title>QR-CODE</title>
+</head>
+<body>
+  <div id="container">
+    <img width="340" src="./images/image-qr-code.png">
+    <div id="card-info">
+      <h2 id="heading">Improve your front-end <br> skills by building projects</h2>
+      <p id="sometext">Scan the QR code to visit Frontend <br> Mentor and take your coding skills to <br> the next level</p>
+    </div>
+  </div>
+</body>
+</html>
