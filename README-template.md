@@ -5,7 +5,6 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ## Table of contents
 
 - [Overview](#overview)
-  - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -18,13 +17,9 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 A QR Code card with some text.
 
-### Screenshot
-
-(./screenshot.png)
-
 ### Links
 
-- Live Site URL: [Add live site URL here](http://127.0.0.1:5500/index.html)
+- Live Site URL: [Add live site URL here](http://127.0.0.1:5500/qr-code-component-main/index.html)
 
 ## My process
 
